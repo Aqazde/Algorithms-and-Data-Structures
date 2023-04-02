@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FibonacciSequence {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Input positive number: ");
+        System.out.println("Enter positive number: ");
         int n = userInput.nextInt();
         System.out.println(n+ "'th Fibonacci sequence equal to: " + Fibonacci(n));
     }

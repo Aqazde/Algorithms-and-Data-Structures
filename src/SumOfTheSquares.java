@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class SumOfTheSquares {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Input positive number: ");
+        System.out.println("Enter positive number: ");
         int n = userInput.nextInt();
         System.out.println("Sum of squares of " + n + " is: " + SumOfSquares(n));
     }
