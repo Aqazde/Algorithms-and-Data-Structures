@@ -4,7 +4,7 @@ public class ReverseString {
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter the number of strings: ");
         int n = userInput.nextInt();
-        userInput.nextLine(); // consume newline character after reading integer
+        userInput.nextLine(); 
         System.out.println("Enter the sequence of N strings:");
         System.out.println("Reversed sequence: \n" + reverseStringSequence(n, userInput));
     }
